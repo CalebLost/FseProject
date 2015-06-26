@@ -491,23 +491,25 @@ public class DefaultView extends JPanel implements IGameView
         }
     }
 
-
+    //no more draw and pause
+    //automatically new game after victory
     private void GameOver()
     {
         Player player = m_oController.gameOver();
 
         if(player !=null && player.getIsFirst())
         {
-            drawVictory(m_NamePlayer1);
-            m_bPause = true;
+           // drawVictory(m_NamePlayer1);
+           // m_bPause = true;
         }
         else if(player != null)
         {
-            drawVictory(m_NamePlayer2);
-            m_bPause = true;
+          //  drawVictory(m_NamePlayer2);
+          //  m_bPause = true;
         }
     }
-
+    //Last mod:removed draw
+    /*
     private void drawVictory(String name)
     {
         m_gGraphics.setColor(Color.GREEN);
@@ -516,6 +518,6 @@ public class DefaultView extends JPanel implements IGameView
         m_gGraphics.drawString(name +" Wins!", getWidth() / 3 - 100, getHeight() / 3);
         m_sologger.debug(name +" Wins!");
     }
-
+    */
 }
 

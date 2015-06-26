@@ -107,42 +107,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PatternParser.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../libraries/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/helpers/PatternParser.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="32" selection-start="5166" selection-end="5166" vertical-scroll-proportion="-8.68">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultBoard.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChessBoards/DefaultBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="163" column="32" selection-start="3760" selection-end="3760" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Piece.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pieces/Piece.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="25" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tower.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pieces/Tower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="22" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Queen.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pieces/Queen.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -152,10 +116,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bishop.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Bishop.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pieces/Bishop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="18" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.52918285">
+            <state line="78" column="47" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test Results - Tests_in_SpotoChess.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test Results - Tests_in_SpotoChess.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChessGame/DefaultView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="509" column="27" selection-start="15921" selection-end="15921" vertical-scroll-proportion="-11.307693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controller/DefaultController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="32" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.24671917">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChessGame/NewCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="35" selection-start="277" selection-end="439" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -183,9 +183,7 @@
         <entry file="file://$PROJECT_DIR$/ChessGame/MouseCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="40" column="58" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,7 +191,7 @@
       <file leaf-file-name="LoggingEvent.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../libraries/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/LoggingEvent.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="28" selection-start="4182" selection-end="4182" vertical-scroll-proportion="-8.0">
+            <state line="88" column="28" selection-start="4182" selection-end="4182" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -209,12 +207,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ChessGame/NewCommand.java" />
         <option value="$PROJECT_DIR$/ChessGame/PauseCommand.java" />
         <option value="$PROJECT_DIR$/ChessGame/QuitCommand.java" />
         <option value="$PROJECT_DIR$/ChessGame/RestartCommand.java" />
         <option value="$PROJECT_DIR$/ChessGame/UndoCommand.java" />
-        <option value="$PROJECT_DIR$/Controller/DefaultController.java" />
         <option value="$PROJECT_DIR$/Pieces/Pawn.java" />
         <option value="$PROJECT_DIR$/ChessGame/Player.java" />
         <option value="$PROJECT_DIR$/Pieces/Horse.java" />
@@ -225,6 +221,8 @@
         <option value="$PROJECT_DIR$/Pieces/Piece.java" />
         <option value="$PROJECT_DIR$/Pieces/Tower.java" />
         <option value="$PROJECT_DIR$/Pieces/Bishop.java" />
+        <option value="$PROJECT_DIR$/ChessGame/DefaultView.java" />
+        <option value="$PROJECT_DIR$/Controller/DefaultController.java" />
       </list>
     </option>
   </component>
@@ -232,10 +230,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="17" />
-    <option name="width" value="819" />
-    <option name="height" value="706" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -277,16 +275,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -319,62 +307,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pieces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -389,50 +321,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessPieces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="ChessGame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessBoards" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -453,9 +353,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -624,24 +524,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -667,6 +549,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -804,14 +704,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="17" width="819" height="706" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.031866465" sideWeight="0.71153843" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33516484" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29232803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24810319" sideWeight="0.21153846" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -820,8 +720,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24886191" sideWeight="0.69551283" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.71153843" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.40015185" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42913908" sideWeight="0.66483516" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31089744" sideWeight="0.99215245" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23444612" sideWeight="0.6891026" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31089744" sideWeight="0.99215245" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -897,116 +797,88 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../libraries/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/helpers/AppenderAttachableImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="464" selection-end="464" vertical-scroll-proportion="-5.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../libraries/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/AppenderSkeleton.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="29" selection-start="1721" selection-end="1721" vertical-scroll-proportion="-4.88">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../libraries/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/WriterAppender.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="19" selection-start="1617" selection-end="1617" vertical-scroll-proportion="-4.88">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../libraries/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Priority.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="34" selection-start="1643" selection-end="1643" vertical-scroll-proportion="-4.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../libraries/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/PatternLayout.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="1207" selection-end="1207" vertical-scroll-proportion="-9.88">
-          <folding />
-        </state>
+        <state line="28" column="28" selection-start="1207" selection-end="1207" vertical-scroll-proportion="-9.88" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../libraries/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/helpers/PatternConverter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="626" selection-end="626" vertical-scroll-proportion="-8.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../libraries/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/LoggingEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="28" selection-start="4182" selection-end="4182" vertical-scroll-proportion="-8.0">
-          <folding />
-        </state>
+        <state line="18" column="16" selection-start="626" selection-end="626" vertical-scroll-proportion="-8.52" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../libraries/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/helpers/PatternParser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="32" selection-start="5166" selection-end="5166" vertical-scroll-proportion="-8.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChessBoards/Move.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="23" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChessGame/BoardCommands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChessGame/MouseCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="58" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="109" column="32" selection-start="5166" selection-end="5166" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChessBoards/DefaultBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="32" selection-start="3760" selection-end="3760" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="163" column="32" selection-start="3760" selection-end="3760" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pieces/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="25" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="76" column="25" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pieces/Tower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="22" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="61" column="22" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pieces/Queen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="29" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pieces/Bishop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="18" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.52918285">
+        <state line="78" column="47" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChessBoards/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="23" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChessGame/BoardCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChessGame/MouseCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="58" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../libraries/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/LoggingEvent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="28" selection-start="4182" selection-end="4182" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - Tests_in_SpotoChess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChessGame/DefaultView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="509" column="27" selection-start="15921" selection-end="15921" vertical-scroll-proportion="-11.307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChessGame/NewCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="35" selection-start="277" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/DefaultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="32" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.24671917">
           <folding />
         </state>
       </provider>

@@ -64,14 +64,23 @@ public class DefaultController implements IController
     {
         if(getPlayerOne().getPieces().getKing(0).getIsEaten())
         {
-            return getPlayerTwo();
+            return playerVictory(getPlayerTwo());
         }
         else if(getPlayerTwo().getPieces().getKing(0).getIsEaten())
         {
-            return getPlayerOne();
+            return playerVictory(getPlayerOne());
         }
         else
             return null;
+    }
+
+    private Player playerVictory(Player player)
+    {
+        m_soGameViewer.updateScore(player);
+        m_soGameBoard.reset();
+        m_soGameViewer.setIsPaused(false);
+        m_soGameViewer.update();
+        return player;
     }
 
     @Override
