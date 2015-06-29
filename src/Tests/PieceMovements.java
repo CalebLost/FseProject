@@ -43,8 +43,8 @@ public class PieceMovements
 
         Field field = secretClass.getDeclaredField("m_mGridCells");
         field.setAccessible(true);
-        GridCell m_mGridCells[][] = (GridCell [][])(field.get(newBoard));
-        m_mGridCells[0][1].setColor(GridCell.CellColor.NONE);
+        GridCell m_mGridCells[] = (GridCell [])(field.get(newBoard));
+        m_mGridCells[1 * DefaultBoard.WIDTH + 0].setColor(GridCell.CellColor.NONE);
 
         newBoard.moveTo(0, 5);
         Assert.assertTrue("Piece didn't move to correct place!", (newBoard.getPlayerOne().getPieces().getCastle(0).getPosition().getY() == 5 && newBoard.getPlayerOne().getPieces().getCastle(0).getPosition().getX() == 0));
@@ -72,8 +72,8 @@ public class PieceMovements
 
         Field field = secretClass.getDeclaredField("m_mGridCells");
         field.setAccessible(true);
-        GridCell m_mGridCells[][] = (GridCell [][])(field.get(newBoard));
-        m_mGridCells[3][1].setColor(GridCell.CellColor.NONE);
+        GridCell m_mGridCells[] = (GridCell [])(field.get(newBoard));
+        m_mGridCells[1 * DefaultBoard.WIDTH + 3].setColor(GridCell.CellColor.NONE);
 
         newBoard.moveTo(5, 3);
         Assert.assertTrue("Piece didn't move to correct place!", (newBoard.getPlayerOne().getPieces().getBishop(0).getPosition().getY() == 3 && newBoard.getPlayerOne().getPieces().getBishop(0).getPosition().getX() == 5));
@@ -91,8 +91,8 @@ public class PieceMovements
 
         Field field = secretClass.getDeclaredField("m_mGridCells");
         field.setAccessible(true);
-        GridCell m_mGridCells[][] = (GridCell [][])(field.get(newBoard));
-        m_mGridCells[4][1].setColor(GridCell.CellColor.NONE);
+        GridCell m_mGridCells[] = (GridCell [])(field.get(newBoard));
+        m_mGridCells[1 * DefaultBoard.WIDTH + 4].setColor(GridCell.CellColor.NONE);
 
         newBoard.selectAt(3, 0);
         newBoard.moveTo(5, 2);
@@ -111,8 +111,8 @@ public class PieceMovements
 
         Field field = secretClass.getDeclaredField("m_mGridCells");
         field.setAccessible(true);
-        GridCell m_mGridCells[][] = (GridCell [][])(field.get(newBoard));
-        m_mGridCells[4][1].setColor(GridCell.CellColor.NONE);
+        GridCell m_mGridCells[] = (GridCell [])(field.get(newBoard));
+        m_mGridCells[1 * DefaultBoard.WIDTH + 4].setColor(GridCell.CellColor.NONE);
 
         newBoard.moveTo(4, 1);
         Assert.assertTrue("Piece didn't move to correct place!", (newBoard.getPlayerOne().getPieces().getKing(0).getPosition().getY() == 1 && newBoard.getPlayerOne().getPieces().getKing(0).getPosition().getX() == 4));

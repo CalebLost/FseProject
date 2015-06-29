@@ -27,14 +27,14 @@ public class ChessBoardTests
 
         Field field = secretClass.getDeclaredField("m_mGridCells");
         field.setAccessible(true);
-        GridCell m_mGridCells[][] = (GridCell [][])(field.get(newBoard));
+        GridCell m_mGridCells[] = (GridCell [])(field.get(newBoard));
 
-        Assert.assertTrue("Should be occupied", m_mGridCells[6][6].isOccupied() == true);
-        Assert.assertTrue("Should be occupied", m_mGridCells[6][6].getCellColor() == GridCell.CellColor.BLACK);
-        Assert.assertTrue("Should be occupied",m_mGridCells[0][0].isOccupied() == true);
-        Assert.assertTrue("Should be occupied",m_mGridCells[0][0].getCellColor() == GridCell.CellColor.WHITE);
-        Assert.assertTrue("Should be occupied", m_mGridCells[4][4].isOccupied() == false);
-        Assert.assertTrue("Should be occupied", m_mGridCells[4][4].getCellColor() == GridCell.CellColor.NONE);
+        Assert.assertTrue("Should be occupied", m_mGridCells[6 * DefaultBoard.WIDTH + 6].isOccupied() == true);
+        Assert.assertTrue("Should be occupied", m_mGridCells[6 * DefaultBoard.WIDTH + 6].getCellColor() == GridCell.CellColor.BLACK);
+        Assert.assertTrue("Should be occupied",m_mGridCells[0 * DefaultBoard.WIDTH + 0].isOccupied() == true);
+        Assert.assertTrue("Should be occupied",m_mGridCells[0 * DefaultBoard.WIDTH + 0].getCellColor() == GridCell.CellColor.WHITE);
+        Assert.assertTrue("Should be occupied", m_mGridCells[4 * DefaultBoard.WIDTH + 4].isOccupied() == false);
+        Assert.assertTrue("Should be occupied", m_mGridCells[4 * DefaultBoard.WIDTH + 4].getCellColor() == GridCell.CellColor.NONE);
 
 	}
 
@@ -45,10 +45,10 @@ public class ChessBoardTests
 
         Field field = secretClass.getDeclaredField("m_mGridCells");
         field.setAccessible(true);
-        GridCell m_mGridCells[][] = (GridCell [][])(field.get(newBoard));
+        GridCell m_mGridCells[] = (GridCell [])(field.get(newBoard));
 
-        Assert.assertTrue("Should be an 8X8 board", ((m_mGridCells.length == DefaultBoard.WIDTH) && m_mGridCells.length == 8));
-        Assert.assertTrue("Should be an 8X8 board", ((m_mGridCells[0].length == DefaultBoard.HEIGHT) && m_mGridCells[0].length == 8));
+        Assert.assertTrue("Should be an 8X8 board", ((m_mGridCells.length == DefaultBoard.WIDTH * DefaultBoard.HEIGHT) && m_mGridCells.length == 64));
+
 	}
 
 
